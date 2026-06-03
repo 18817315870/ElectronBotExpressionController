@@ -1,6 +1,7 @@
 # ElectronBotExpressionController
 
 ElectronBotExpressionController 是一个 Windows 桌面程序，用来监听微信、QQ 等应用的通知声音，并让 ElectronBot 显示表情、播放提醒动作。
+基于绿萌大佬的源代码开发：https://github.com/maker-community/ElectronBot.DotNet
 
 ## 普通用户下载
 
