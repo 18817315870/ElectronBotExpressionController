@@ -30,8 +30,15 @@ ElectronBotExpressionController.exe
 - 支持按时间触发日程提醒。
 
 - 由于监听系统通知音频，所以需要打开新消息通知声音
-  以微信举例 其他亦然：
-  <img width="800" height="700" alt="截图_20260603150218" src="https://github.com/user-attachments/assets/a04b9ae2-bda4-4821-acb3-79e0f7361080" />
+
+<img width="1202" height="839" alt="截图_20260603174908" src="https://github.com/user-attachments/assets/46cf7845-800f-48a6-afcd-e9566e57ec99" />
+
+
+## 效果演示
+
+
+https://github.com/user-attachments/assets/54227846-a035-41a6-8ad5-101c722805db
+
 
 ## 开发者构建
 
