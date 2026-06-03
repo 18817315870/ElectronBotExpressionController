@@ -29,11 +29,19 @@ ElectronBotExpressionController.exe
 - 支持自定义通知规则、表情图片和动作 JSON。
 - 支持按时间触发日程提醒。
 
+- 由于监听系统通知音频，所以需要打开新消息通知声音
+  以微信举例 其他亦然：
+  <img width="800" height="700" alt="截图_20260603150218" src="https://github.com/user-attachments/assets/a04b9ae2-bda4-4821-acb3-79e0f7361080" />
+
 ## 开发者构建
 
 需要 Windows 10 2004 或更新版本，以及 .NET 9 SDK。
 
 ```powershell
+
+https://github.com/user-attachments/assets/8e02d359-c8a1-4b6b-bcb2-d2a3530b879b
+
+
 dotnet restore .\decompiled-src\ElectronBotExpressionController.csproj
 dotnet build .\decompiled-src\ElectronBotExpressionController.csproj -c Release
 ```
