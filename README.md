@@ -45,21 +45,6 @@ https://github.com/user-attachments/assets/54227846-a035-41a6-8ad5-101c722805db
 
 需要 Windows 10 2004 或更新版本，以及 .NET 9 SDK。
 
-```powershell
-
-https://github.com/user-attachments/assets/8e02d359-c8a1-4b6b-bcb2-d2a3530b879b
-
-
-dotnet restore .\decompiled-src\ElectronBotExpressionController.csproj
-dotnet build .\decompiled-src\ElectronBotExpressionController.csproj -c Release
-```
-
-生成免安装发布包：
-
-```powershell
-dotnet publish .\decompiled-src\ElectronBotExpressionController.csproj -c Release -r win-x64 --self-contained true
-```
-
 ## 目录说明
 
 ```text
@@ -69,6 +54,3 @@ notification-settings.example.json  示例配置
 USAGE.md                            使用说明
 ```
 
-## 注意
-
-程序运行时会在 exe 同目录生成 `notification-settings.json`、`listener.log` 和 `audio-sessions.log`。这些是本机运行文件，不需要提交到 GitHub。
