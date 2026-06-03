@@ -1,0 +1,38 @@
+# Visual Studio / VS Code local state
+.vs/
+**/.vs/
+.vscode/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+publish/
+**/bin/
+**/obj/
+**/publish/
+
+# Local tools and temporary backups
+.tools/
+backup-before-*/
+github-upload/
+
+# Runtime/generated files
+*.log
+notification-settings.json
+expression-catalog.json
+Assets/Custom/
+
+# Binary release artifacts
+*.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Keep the public sample config tracked
+!notification-settings.example.json

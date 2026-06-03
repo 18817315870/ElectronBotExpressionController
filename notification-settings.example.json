@@ -1,0 +1,75 @@
+{
+  "AudioTargets": [
+    "WeChat",
+    "Weixin",
+    "微信",
+    "QQ",
+    "Tim"
+  ],
+  "SoundThresholdPercent": 2,
+  "FrameIntervalMs": 100,
+  "EnableServo": true,
+  "CooldownSeconds": 5,
+  "DefaultFacePath": "",
+  "Profiles": [
+    {
+      "Enabled": true,
+      "Name": "微信",
+      "Keywords": [
+        "WeChat",
+        "Weixin",
+        "微信"
+      ],
+      "FacePath": "Assets/Notify/wechat_notify.png",
+      "ActionKey": "",
+      "ActionPath": "",
+      "Frames": []
+    },
+    {
+      "Enabled": true,
+      "Name": "QQ",
+      "Keywords": [
+        "QQ",
+        "Tim"
+      ],
+      "FacePath": "Assets/Emoji/excited.png",
+      "ActionKey": "",
+      "ActionPath": "",
+      "Frames": []
+    }
+  ],
+  "ScheduledActions": [
+    {
+      "Time": "08:30",
+      "Name": "上班",
+      "ActionKey": "schedule-work-start",
+      "FacePath": "Assets/Scheduled/work_start.png",
+      "ActionPath": "Assets/Emoji/normal.json",
+      "Enabled": true
+    },
+    {
+      "Time": "11:30",
+      "Name": "吃饭",
+      "ActionKey": "schedule-lunch",
+      "FacePath": "Assets/Scheduled/lunch.png",
+      "ActionPath": "Assets/Emoji/normal.json",
+      "Enabled": true
+    },
+    {
+      "Time": "15:00",
+      "Name": "休息倒水",
+      "ActionKey": "schedule-water",
+      "FacePath": "Assets/Scheduled/water.png",
+      "ActionPath": "Assets/Emoji/normal.json",
+      "Enabled": true
+    },
+    {
+      "Time": "17:00",
+      "Name": "准备下班",
+      "ActionKey": "schedule-off",
+      "FacePath": "Assets/Scheduled/off_work.png",
+      "ActionPath": "Assets/Emoji/normal.json",
+      "Enabled": true
+    }
+  ]
+}
